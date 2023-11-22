@@ -1,15 +1,16 @@
 // Fonts
-$main_font: "Roboto", sans-serif; //change this
+$main_font: "Roboto", sans-serif; 
+$secondary_font: 'Open Sans', sans-serif;
 
 // Media Queries Sizes
 $phone: 480px;
 $tablet: 768px;
 $desktop: 1024px;
+$desktopxl: 1200px;
 
 // Colores
-$main_color: #e8505b; //change this
-$secondary_color: #455a64; //change this
+$mainColor: #3b4862;
 $black: #000;
 $white: #ffffff;
-
-$sep: 5rem;
+$gray: #eeefed;
+$lightGray: #f8f8f8;

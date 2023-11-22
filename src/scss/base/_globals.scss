@@ -13,13 +13,14 @@ html {
 body {
   font-family: v.$main_font;
   font-size: 1.6rem;
+  background-color: darken(v.$lightGray, 3%);
 }
 
 p {
   color: v.$black;
   font-size: 2rem;
 }
-.contenedor {
+.container {
   width: 95%;
   max-width: 1200px;
   margin: 0 auto;
@@ -27,6 +28,7 @@ p {
 
 a {
   text-decoration: none;
+  color: v.$black;
 }
 
 img {
@@ -34,17 +36,24 @@ img {
   display: block;
 }
 
-h1,
-h2,
-h3 {
-  margin: 0 0 v.$sep 0;
+// h1,
+// h2,
+// h3 {
+//   margin: 0 0 v.$sep 0;
+// }
+// h1 {
+//   font-size: 4rem;
+// }
+// h2 {
+//   font-size: 3.6rem;
+// }
+// h3 {
+//   font-size: 3.2rem;
+// }
+
+ul {
+  padding:0;
+  list-style: none;
+  margin: 0;
 }
-h1 {
-  font-size: 4rem;
-}
-h2 {
-  font-size: 3.6rem;
-}
-h3 {
-  font-size: 3.2rem;
-}
+

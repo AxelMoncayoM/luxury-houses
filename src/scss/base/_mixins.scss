@@ -19,7 +19,13 @@
   }
 }
 
-@mixin boton($color, $text) {
+@mixin desktopXL {
+  @media (min-width: v.$desktopxl) {
+      @content;
+  }
+}
+
+@mixin buttom($color, $text) {
   background-color: $color;
   font-size: 2rem;
   padding: 1.2rem 3rem;
